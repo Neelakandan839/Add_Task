@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container h2,
+.sub-title {
+  text-align: center;
+  color: #275e74;
+}
+
+.user-profile {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  height: 40vh;
+  border: 1px solid #000;
+}
+.userdata {
+  padding: 0.5rem;
+}
+.list-group-item {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 767px) {
+  .user-profile {
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+    height: 35vh;
+    font-size: 0.825rem;
+  }
+  .userdata {
+    padding: 0.25rem;
+  }
+  .content {
+    font-size: 0.85rem;
+    margin-left: 10px;
+  }
+
+  .comments {
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+}

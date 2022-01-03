@@ -1,0 +1,122 @@
+.form-title h2,
+.allposts h1 {
+  text-align: center;
+  color: blue;
+  text-shadow: 3px 3px 5px #98d3eb;
+  font-size: 40px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  height: 360px;
+}
+.form-data {
+  padding-top: 10px;
+  width: 300px;
+  background:grey;
+}
+label {
+  margin-left: 10px;
+}
+.form-data input {
+  height: 30px;
+}
+
+.form-data input,
+.form-data textarea {
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.form-data textarea {
+  height: 100px;
+}
+.form-data button {
+  margin-left: 80px;
+  width: 150px;
+  height: 40px;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.allposts {
+  width: 95%;
+}
+.allposts table {
+  margin: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+.allposts table th {
+  padding: 1rem;
+  background: teal;
+}
+
+.allposts table td {
+  height: 50px;
+}
+.allposts table tr:nth-child(even) {
+  background: #f1d9bd;
+}
+.allposts button {
+  height: 30px;
+  margin: 2px 0 2px 80px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.userId {
+  text-align: center;
+}
+
+.post-details {
+  text-decoration: none;
+  color: #fff;
+}
+.update {
+  background: #06ad68;
+}
+.delete {
+  background: #f01326;
+  margin-right: 20px;
+}
+.post {
+  background: #275e74;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    font-size: 0.85rem;
+  }
+  .form-data {
+    padding-top: 6px;
+    width: 250px;
+  }
+  .form-data button {
+    margin-left: 60px;
+    width: 110px;
+    height: 30px;
+  }
+  .allposts table {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .allposts table th {
+    padding: 0.5rem;
+  }
+  .allposts button {
+    height: 20px;
+    margin: 2px 0 2px 10px;
+    width: 80px;
+    border-radius: 10px;
+  }
+}
